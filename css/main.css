@@ -93,24 +93,49 @@ a {
             ENTÊTE DE PAGE
 ****************************************/
 header {
-    background-color: #011627;
-    padding: 5px 0 0 0;
-    margin: 0 0 30px 0;
+    background-color: black;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    text-align: center;
 }
-.nom
-nav ul{
-    padding: 0;
-    margin: 0;
-    text-align: right;
+
+.logo-nom {
+    font-family: "Changa One", sans-serif;
+    font-size: 1.75rem;
+    line-height: 0.8;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
+.logo-profession {
+    margin-top: -5px;
+    font-weight: normal;
+    font-size: x-large;
+}
+/******************************************
+               Navigation
+******************************************/
+
+nav {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+nav ul {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 nav ul li {
-    border: 3px solid yellow;
     padding: 5px;
+    margin:0 auto;
     display: inline-block;
 }
+
 nav ul li a {
-    border: 3px solid blue;
+    color:white;
+    font-family: "Changa One",sans-serif;
 }
+
 /***************************************
               PAGE ACCUEIL
 ****************************************/
@@ -193,4 +218,14 @@ main{
 
 .page-infos h1 {
     color: #011627;
+}
+/******************************************
+               Footer
+******************************************/
+footer {
+    text-align: center;
+}
+
+footer p {
+    display:grid;
 }
