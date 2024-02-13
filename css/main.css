@@ -169,7 +169,7 @@ nav ul li a {
     font-size: 100%;
     color: black;
     display: list-item;
-    list-style-image: url(../_sources/images/phone.png);
+    list-style-image: url(../images/phone.png);
 }
 
 .liste2 {
@@ -177,7 +177,7 @@ nav ul li a {
     font-size: 100%;
     color: black;
     display: list-item;
-    list-style-image: url(../_sources/images/mail.png);
+    list-style-image: url(../images/mail.png);
 }
 
 .liste3 {
@@ -185,7 +185,7 @@ nav ul li a {
     font-size: 100%;
     color: black;
     display: list-item;
-    list-style-image: url(../_sources/images/twitter.png);
+    list-style-image: url(../images/twitter.png);
 }
 
 .liste4 {
@@ -193,7 +193,7 @@ nav ul li a {
     font-size: 100%;
     color: black;
     display: list-item;
-    list-style-image: url(../_sources/images/facebook.png);
+    list-style-image: url(../images/facebook.png);
 }
 
 ul {
