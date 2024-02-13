@@ -137,10 +137,17 @@ nav ul li a {
 }
 
 /***************************************
-              PAGE ACCUEIL
+              PAGE ACCUEIL (index)
 ****************************************/
-.page-accueil h1 {
-    background: red;
+.realisations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 /***************************************
