@@ -122,7 +122,61 @@ nav ul li a {
               PAGE CONTACT
 ****************************************/
 .page-contact h1 {
-    background: yellow;
+    margin-left: 15px;
+    margin-bottom: -2px;
+}
+
+.section-infos {
+    margin-left: 15px;
+}
+
+.section-infos p {
+    margin-top: -25px;
+    padding-right:35px;
+}
+
+.section-contact {
+    margin-left: 15px;
+}
+
+.liste1 {
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    font-size: 100%;
+    color: black;
+    display: list-item;
+    list-style-image: url(../_sources/images/phone.png);
+}
+
+.liste2 {
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    font-size: 100%;
+    color: black;
+    display: list-item;
+    list-style-image: url(../_sources/images/mail.png);
+}
+
+.liste3 {
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    font-size: 100%;
+    color: black;
+    display: list-item;
+    list-style-image: url(../_sources/images/twitter.png);
+}
+
+.liste4 {
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    font-size: 100%;
+    color: black;
+    display: list-item;
+    list-style-image: url(../_sources/images/facebook.png);
+}
+
+ul {
+    margin-left: 40px;
+}
+
+.page-contact  .lien-contact a{
+    color: #2ec4b6;
 }
 
 /***************************************
