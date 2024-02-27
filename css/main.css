@@ -139,17 +139,38 @@ nav ul li a {
 /***************************************
               PAGE ACCUEIL (index)
 ****************************************/
-.realisations {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    list-style-type: none;
-    margin: 0;
+.page-accueil ul.realisations{
+    /*reset de la liste*/
+    list-style: none;
     padding: 0;
+    margin: 0;
+    /*Flex*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.page-accueil ul.realisations li{
+    flex-basis: 50%;
+    flex-grow: 1;
+    padding: 1rem 2.5%;
+}
+/* Pour les écrans de 660px on affiche sur 3 colonnes*/
+@media screen and (min-width: 660px){
+    .page-accueil ul.realisations li{
+        flex-basis: 33%;
+        flex-grow: 3;
+    }
+}
+/*Supprimer les marges par défauts*/
+figure{
+    margin: 0;
 }
 
+/*Afficher les images sur deux colonnes en utilisant la technique display:inline-block
+Les éléments de la liste d'images <li> font 45% de largeur et ont une marge extérieure de 2.5%.
+Aligner verticalement les éléments <li> par le haut vertical-align:top;
+La légende des images à une marge intérieure de 10px et une taille de texte de 1rem.
+Le débordement overflow du texte de la légende doit être masqué.*/
 /***************************************
               PAGE CONTACT
 ****************************************/
